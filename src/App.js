@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import database from '../src/components/Firebase/firebase'
 import Header from '../src/components/Header'
+import NavBar from './components/NavBar'
 
 
 class App extends Component {
@@ -17,7 +18,7 @@ class App extends Component {
       
       <div className="App">
         <Header />
-        Hello World
+        <NavBar />
       </div>
     );
   }
