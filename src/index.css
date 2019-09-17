@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 10px;
+}
+
+.parent-container {
+  padding: 10px;
+  border: 3px solid;
+  margin-top: 10px;
+}
+
+.child-container {
+  margin-top: 5px;
+  margin-left: 75px;
+}
+
+.parent-button {
+  border: 3px solid;
+  color: black;
+  background: #ffffff;
+  border-radius: 3px;
+  padding: 10px 20px;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item:nth-child(1) {
+  margin-right: 15px;
+}
+
+/* .flex-item:nth-child(2) {
+
+} */
