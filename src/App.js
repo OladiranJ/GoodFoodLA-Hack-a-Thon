@@ -8,7 +8,6 @@ import database from '../src/components/Firebase/firebase'
 import Header from '../src/components/Header'
 import NavBar from './components/NavBar'
 
-
 import { text } from './Data';
 
 class App extends Component {
