@@ -35,10 +35,10 @@ class App extends Component {
         <NavBar />
         <hr />
         <Route exact path={ROUTES.LANDING} component={Landing} />
-        <Route path={ROUTES.HEALTHY} component={Healthy} />
-        <Route path={ROUTES.AFFORDABLE} component={Affordable} />
-        <Route path={ROUTES.FAIR} component={Fair} />
-        <Route path={ROUTES.SUSTAINABLE} component={Sustainable} />
+        <Route exact path={ROUTES.HEALTHY} component={Healthy} />
+        <Route exact path={ROUTES.AFFORDABLE} component={Affordable} />
+        <Route exact path={ROUTES.FAIR} component={Fair} />
+        <Route exact path={ROUTES.SUSTAINABLE} component={Sustainable} />
         {/* <DataGrid /> */}
         
         {/* GoodFoodForAll
