@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import ChildContentContainer from '../ChildContentContainer';
 
-const ContentContainer = ({displayText, bodyText}) => {
+const GrandChildContentComponent = ({displayText, bodyText}) => {
   const [isOpen, setOpen] = useState(false);
   return (
     <div className='parent-container'>
@@ -17,9 +16,9 @@ const ContentContainer = ({displayText, bodyText}) => {
           <p>{displayText}</p>
         </div>
       </div>
-      {isOpen && <ChildContentContainer text={displayText}/>}
+      {isOpen && <p>Display Some Text via a Component</p>}
     </div>
   );
 }
 
-export default ContentContainer;
+export default GrandChildContentComponent;

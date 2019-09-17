@@ -2,6 +2,7 @@
 
 import React, {Component}   from 'react'
 import { NavLink }          from 'react-router-dom'
+import * as ROUTES from '../../constants/routes';
 import './navbar.css'
 
 
@@ -20,10 +21,10 @@ const NavBar = () => {
                 <div className='navbar-items'>
                     {
                         <ul>
-                            <NavLink>Healthy</NavLink>
-                            <NavLink>Affordable</NavLink>
-                            <NavLink>Fair</NavLink>
-                            <NavLink>Sustainable</NavLink>
+                            <NavLink to={ROUTES.HEALTHY}>Healthy</NavLink>
+                            <NavLink to={ROUTES.AFFORDABLE}>Affordable</NavLink>
+                            <NavLink to={ROUTES.FAIR}>Fair</NavLink>
+                            <NavLink to={ROUTES.SUSTAINABLE}>Sustainable</NavLink>
                         </ul>
                     }
                 </div>
