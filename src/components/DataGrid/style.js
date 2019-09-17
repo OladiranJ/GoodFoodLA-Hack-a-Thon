@@ -17,6 +17,6 @@ export const Container = styled.div`
 `
 
 export const TableHeader = styled.div`
-    background-color: slateblue;
+    background-color: lightblue;
     font-size: 30px;
 `

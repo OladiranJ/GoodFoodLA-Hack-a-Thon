@@ -7,6 +7,7 @@ import ContentContainer from './components/ContentContainer';
 
 // import database from '../src/components/Firebase/firebase'
 import Header from '../src/components/Header'
+import Footer from '../src/components/Footer'
 import NavBar from './components/NavBar'
 
 
@@ -51,6 +52,7 @@ class App extends Component {
         {text.map((t)=> 
           <ContentContainer displayText={t} bodyText={t} key={t.id}/>
         )}
+        <Footer />
       </div>
     );
   }
