@@ -6,7 +6,9 @@
     "firebase": "^6.6.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,12 +36,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmzinser/GoodFoodLA-Hack-a-Thon.git"
+    "url": "git+https://github.com/OladiranJ/GoodFoodLA-Hack-a-Thon.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dmzinser/GoodFoodLA-Hack-a-Thon/issues"
+    "url": "https://github.com/OladiranJ/GoodFoodLA-Hack-a-Thon/issues"
   },
-  "homepage": "https://github.com/dmzinser/GoodFoodLA-Hack-a-Thon#readme"
+  "homepage": "https://github.com/OladiranJ/GoodFoodLA-Hack-a-Thon#readme"
 }
