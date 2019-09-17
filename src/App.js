@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-import database from '../src/components/Firebase/firebase';
 import ContentContainer from './components/ContentContainer';
 
 import database from '../src/components/Firebase/firebase'
 import Header from '../src/components/Header'
 import NavBar from './components/NavBar'
-
 
 import { text } from './Data';
 
