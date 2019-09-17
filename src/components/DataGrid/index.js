@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Grid } from './style';
-import * as data from '../../constants/fair-json';
+import { Grid, Container, TableHeader } from './style';
+// import * as data from '../../constants/fair-json';
 import database from '../Firebase/firebase'
 
 class DataGrid extends Component  {
@@ -22,15 +22,22 @@ class DataGrid extends Component  {
     }
     render() {
         return(
-            <Grid>
+            <Container>
+                <Grid>
+                    <TableHeader>INDICATOR</TableHeader>
+                    <TableHeader>BASELINE</TableHeader>
+                    <TableHeader>UPDATE</TableHeader>
+                </Grid>
             {this.state.data.map(elem => { 
-                return <div>
-                        {elem.x.INDICATOR}<br />
-                        {elem.x.BASELINE}<br />
-                        {elem.x.UPDATE}<br />
-                    </div>
+                return(
+                        <Grid>  
+                            <div>{elem.x.INDICATOR}</div>
+                            <div>{elem.x.BASELINE}</div>
+                            <div>{elem.x.UPDATE}</div>
+                        </Grid>  
+                )
             })}
-            </Grid>
+            </Container>
         )
         }
 }

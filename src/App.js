@@ -5,20 +5,20 @@ import './App.css';
 
 import ContentContainer from './components/ContentContainer';
 
-import database from '../src/components/Firebase/firebase'
+// import database from '../src/components/Firebase/firebase'
 import Header from '../src/components/Header'
 import NavBar from './components/NavBar'
 
-import DataGrid from './components/DataGrid';
+
 import Landing from './components/Landing';
 import Healthy from './components/Healthy';
 import Affordable from './components/Affordable';
 import Fair from './components/Fair';
 import Sustainable from './components/Sustainable';
-import * as data from './constants/fair-json';
+// import * as data from './constants/fair-json';
 import * as ROUTES from './constants/routes';
 
-import * as data from './constants/sustainable-json';
+// import * as data from './constants/sustainable-json';
 
 
 import { text } from './Data';
