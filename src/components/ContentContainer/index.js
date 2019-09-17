@@ -1,17 +1,23 @@
 import React, { useState } from 'react';
 import ChildContentContainer from '../ChildContentContainer';
 
-const ContentComponent = () => {
+const ContentComponent = ({displayText, bodyText}) => {
   const [isOpen, setOpen] = useState(false);
   return (
     <div className='parent-container'>
-      <p>Click to Expand</p>
-      <button className="parent-button" onClick={() => {
-        setOpen(!isOpen)
-      }}>
-        {isOpen ? '-' : '+'}
-      </button>
-      {isOpen && <ChildContentContainer/>}
+      <div className='flex-container'>
+        <div className='flex-item'>
+          <button className='parent-button' onClick={() => {
+            setOpen(!isOpen)
+          }}>
+            {isOpen ? '-' : '+'}
+          </button>
+        </div>
+        <div className='flex-item'>
+          <p>{displayText}</p>
+        </div>
+      </div>
+      {isOpen && <ChildContentContainer bodyText={bodyText}/>}
     </div>
   );
 }

@@ -4,6 +4,7 @@ import './App.css';
 import database from '../src/components/Firebase/firebase';
 import ContentContainer from './components/ContentContainer';
 
+import { text } from './Data';
 
 class App extends Component {
   // componentDidMount(){
@@ -15,8 +16,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        Hello World
-        <ContentContainer />
+        GoodFoodForAll
+        {text.map(t => 
+          <ContentContainer displayText={t.displayText} bodyText={t.bodyText} key={t.id}/>
+        )}
       </div>
     );
   }
