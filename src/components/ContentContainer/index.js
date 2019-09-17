@@ -17,7 +17,7 @@ const ContentContainer = ({displayText, bodyText}) => {
           <p>{displayText}</p>
         </div>
       </div>
-      {isOpen && <ChildContentContainer bodyText={bodyText}/>}
+      {isOpen && <ChildContentContainer text={displayText}/>}
     </div>
   );
 }
