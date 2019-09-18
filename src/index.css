@@ -124,11 +124,11 @@ h1 {
 }
 
 .para-1 {
-  margin-bottom: 0rem;
+  margin-bottom: 3rem;
 }
 
 .para-2 {
-  margin-top: 0rem;
+  margin-top: 3rem;
   margin-bottom: 7rem;
 }
 
@@ -151,6 +151,10 @@ h1 {
   float: right;
 }
 
+.float-2 {
+  float: left;
+}
+
 .displayText {
   margin-left: 4rem;
   margin-bottom: 2rem;
@@ -166,3 +170,11 @@ h1 {
   margin-bottom: 2rem;
 }
 
+.toolkit {
+  text-align: center;
+}
+
+h3 {
+  color: #156272;
+  margin: 20px;
+}

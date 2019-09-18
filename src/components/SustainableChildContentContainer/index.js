@@ -51,7 +51,7 @@ const SustainableChildContentContainer = ({ text }) => (
       <DataGrid displayText={text}/>
       {text}
     </div>
-    <div className='tookit'>
+    <div className='toolkit'>
       <h3>Toolkit</h3>
       <button className='container-buttons'>Download Report</button>
       <button className='container-buttons'>Download Data</button>
