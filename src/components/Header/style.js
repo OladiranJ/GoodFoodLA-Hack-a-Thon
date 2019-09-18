@@ -20,3 +20,8 @@ export const Head = styled.header`
         padding: .618em 0;
     }
 `
+
+export const Container = styled.div`
+    text-align: center;
+    padding: 30px;
+`
