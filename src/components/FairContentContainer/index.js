@@ -4,19 +4,23 @@ import FairChildContentContainer from '../FairChildContentContainer';
 const AffordableContentContainer = ({displayText, id}) => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className='parent-container' id={id}>
+    <div className='parent-container fair-container' id={id}>
       <div className='flex-container'>
+        
         <div className='flex-item'>
-          <button className='parent-button' onClick={() => {
+          <h1 class="content-header">{displayText}</h1>
+        </div>
+      </div>
+      <div className="flex-item">
+          <p>Fair food is produced, manufactured, distributed, sold and recycled through fair labor practices and humane treatment of animals. At every point in the food supply chain, workers should receive fair compensation regardless of their ethnicity, age, gender, ability, and documentation status and be free from exploitation.</p>
+        </div>
+      <div className='flex-item'>
+          <button className='parent-button fair-button' onClick={() => {
             setOpen(!isOpen)
           }}>
             {isOpen ? '-' : '+'}
           </button>
         </div>
-        <div className='flex-item'>
-          <p>{displayText}</p>
-        </div>
-      </div>
       {isOpen && <FairChildContentContainer text={displayText}/>}
     </div>
   );
