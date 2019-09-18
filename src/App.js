@@ -21,7 +21,6 @@ import * as ROUTES from './constants/routes';
 
 // import * as data from './constants/sustainable-json';
 
-
 import { text } from './Data';
 
 class App extends Component {
@@ -41,16 +40,16 @@ class App extends Component {
         <NavBar />
 
         <hr />
-        <Route exact path={ROUTES.LANDING} component={Landing} />
+        {/* <Route exact path={ROUTES.LANDING} component={Landing} />
         <Route exact path={ROUTES.HEALTHY} component={Healthy} />
         <Route exact path={ROUTES.AFFORDABLE} component={Affordable} />
         <Route exact path={ROUTES.FAIR} component={Fair} />
         <Route exact path={ROUTES.SUSTAINABLE} component={Sustainable} />
 
         
-        GoodFoodForAll
+        GoodFoodForAll */}
         {text.map((t)=> 
-          <ContentContainer displayText={t} bodyText={t} key={t.id}/>
+          <ContentContainer displayText={t.displayText} bodyText={t} key={t.id} id={t.id}/>
         )}
         <Footer />
       </div>
