@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ChildContentContainer from '../ChildContentContainer';
 
-const ContentContainer = ({displayText, bodyText, id}) => {
+const ContentContainer = ({displayText, id}) => {
   const [isOpen, setOpen] = useState(false);
   return (
     <div className='parent-container' id={id}>
