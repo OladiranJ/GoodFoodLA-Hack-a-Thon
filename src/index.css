@@ -54,7 +54,9 @@ code {
   color: rgba(33, 33, 33, 0.85);
   width: 100%;
   margin-top: 5px;
-  padding-left: 75px;
+  padding-top: 20px;
+    padding-bottom: 50px;
+  /* padding-left: 75px; */
 }
 
 .content-header {
@@ -137,7 +139,7 @@ h1 {
 }
 
 .map-container {
-  height: 600px;
+  height: 400px;
   margin: auto;
   width: 50%;
   display: flex;
@@ -153,3 +155,14 @@ h1 {
   margin-left: 4rem;
   margin-bottom: 2rem;
 }
+
+.introduction, .commentary, .chart, .key-findings, .toolkit {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.inner-headers {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+

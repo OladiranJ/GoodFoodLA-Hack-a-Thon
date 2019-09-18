@@ -5,19 +5,19 @@ import DataGrid from '../DataGrid/index';
 const HealthyChildContentContainer = ({ text }) => (
   <div className='child-container'>
     <div className='introduction'>
-      <h3>Introduction</h3>
+      <h3 className='inner-headers'>Introduction</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum lectus urna, sed sollicitudin odio sodales quis. Aliquam convallis purus sed bibendum finibus. Nulla fringilla vitae sapien in tincidunt. Maecenas leo purus, pharetra id malesuada eget, volutpat quis dui. Suspendisse fringilla pulvinar justo, a commodo lectus auctor eu. Suspendisse fermentum risus eu ex viverra, fermentum dignissim neque pulvinar. Nunc nisl dolor, aliquet lobortis vulputate sed, porttitor a sapien. Aliquam sagittis euismod ipsum, vel varius neque tincidunt vel. Donec at urna odio. Sed eget quam orci. Suspendisse a accumsan nisi. Nullam gravida ultricies sapien ac ornare.
       </p>
     </div>
     <div className='commentary'>
-    <h3>Commentary</h3>
+    <h3 className='inner-headers'>Commentary</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum lectus urna, sed sollicitudin odio sodales quis. Aliquam convallis purus sed bibendum finibus. Nulla fringilla vitae sapien in tincidunt. Maecenas leo purus, pharetra id malesuada eget, volutpat quis dui. Suspendisse fringilla pulvinar justo, a commodo lectus auctor eu. Suspendisse fermentum risus eu ex viverra, fermentum dignissim neque pulvinar. Nunc nisl dolor, aliquet lobortis vulputate sed, porttitor a sapien. Aliquam sagittis euismod ipsum, vel varius neque tincidunt vel. Donec at urna odio. Sed eget quam orci. Suspendisse a accumsan nisi. Nullam gravida ultricies sapien ac ornare.
       </p>
     <div className='float-1'>
       <Chart
-          width={'500px'}
+          width={'400px'}
           height={'300px'}
           chartType='PieChart'
           spreadSheetUrl='https://docs.google.com/spreadsheets/d/11QlO8VnnCc8J2BwDmG5eFvLVe3IqwyUnUQRHYoTU108/edit#gid=0'
@@ -35,13 +35,13 @@ const HealthyChildContentContainer = ({ text }) => (
     </div>
     </div>
     <div className='chart'>
-      <h3>Case Study</h3>
+      <h3 className='inner-headers'>Case Study</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum lectus urna, sed sollicitudin odio sodales quis. Aliquam convallis purus sed bibendum finibus. Nulla fringilla vitae sapien in tincidunt. Maecenas leo purus, pharetra id malesuada eget, volutpat quis dui. Suspendisse fringilla pulvinar justo, a commodo lectus auctor eu. Suspendisse fermentum risus eu ex viverra, fermentum dignissim neque pulvinar. Nunc nisl dolor, aliquet lobortis vulputate sed, porttitor a sapien. Aliquam sagittis euismod ipsum, vel varius neque tincidunt vel. Donec at urna odio. Sed eget quam orci. Suspendisse a accumsan nisi. Nullam gravida ultricies sapien ac ornare.
       </p>
     </div>
-    <div className='key-findings flex-container'>
-      <h3>Key Findings</h3>
+    <div className='key-findings flex-container' style={{ 'marginBottom' : '60px' }}>
+      <h3 className='inner-headers'>Key Findings</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum lectus urna, sed sollicitudin odio sodales quis. Aliquam convallis purus sed bibendum finibus. Nulla fringilla vitae sapien in tincidunt. Maecenas leo purus, pharetra id malesuada eget, volutpat quis dui. Suspendisse fringilla pulvinar justo, a commodo lectus auctor eu. Suspendisse fermentum risus eu ex viverra, fermentum dignissim neque pulvinar. Nunc nisl dolor, aliquet lobortis vulputate sed, porttitor a sapien. Aliquam sagittis euismod ipsum, vel varius neque tincidunt vel. Donec at urna odio. Sed eget quam orci. Suspendisse a accumsan nisi. Nullam gravida ultricies sapien ac ornare.
       </p>
