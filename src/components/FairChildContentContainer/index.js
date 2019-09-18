@@ -44,10 +44,8 @@ const FairChildContentContainer = ({ text, bodyText }) => (
   </div>
   <div>
     <DataGrid displayText={text}/>
-    {text}
   </div>
   <div className='tookit'>
-    <h3>Toolkit</h3>
     <button className='container-buttons'>Download Report</button>
     <button className='container-buttons'>Download Data</button>
     <button className='container-buttons'>Download Fast Facts</button>
