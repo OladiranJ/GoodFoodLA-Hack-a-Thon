@@ -4,9 +4,8 @@ import SustainableContentContainer from '../SustainableContentContainer';
 
 const Sustainable = () => {
   return(
-    <div>SUSTAINABLE COMPONENT
-      
-    <SustainableContentContainer id={'Sustainable'} displayText={'sustainable'} />
+    <div id='Sustainable'>
+    <SustainableContentContainer displayText={'sustainable'} />
     </div>
   )
 }

@@ -5,9 +5,8 @@ import HealthyContentContainer from '../HealthyContentContainer';
 
 const Healthy = () => {
   return(
-    <div>HEALTHY COMPONENT
-    
-    <HealthyContentContainer id={'Healthy'} displayText={'healthy'} />
+    <div id='Healthy'>
+    <HealthyContentContainer displayText={'healthy'} />
     </div>
   )
 }
