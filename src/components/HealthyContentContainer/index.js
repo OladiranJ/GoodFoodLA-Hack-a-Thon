@@ -10,7 +10,7 @@ const HealthyContentContainer = ({ displayText }) => {
           <h1 class="content-header">{displayText}</h1>
         </div>
         <div className="flex-item">
-          <p>Food is integral to the health and quality of life of individuals and communities. Healthy food is nutritious, delicious and safe. Healthy food meets recommended dietary guidelines and supports the body’s ability to fight disease and heal. All people deserve access to healthy food that is affordable, conveniently availability and culturally relevant.</p>
+          <p className='displayText'>Food is integral to the health and quality of life of individuals and communities. Healthy food is nutritious, delicious and safe. Healthy food meets recommended dietary guidelines and supports the body’s ability to fight disease and heal. All people deserve access to healthy food that is affordable, conveniently availability and culturally relevant.</p>
         </div>
         <div className='flex-item'>
           <button className='parent-button healthy-button' onClick={() => {

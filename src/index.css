@@ -26,9 +26,9 @@ code {
 }
 
 .parent-container {
-  padding: 10px;
+  /* padding: 10px; */
   /* border: 3px solid; */
-  padding: 50px;
+  /* padding: 50px; */
   min-height: 435px;
   color: white;
 }
@@ -50,13 +50,18 @@ code {
 }
 
 .child-container {
+  background-color: white;
+  color: rgba(33, 33, 33, 0.85);
+  width: 100%;
   margin-top: 5px;
-  margin-left: 75px;
+  padding-left: 75px;
 }
 
 .content-header {
   text-transform: uppercase;
-  margin: 20px;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .parent-button {
@@ -67,7 +72,8 @@ code {
   height: 60px;
   font-size: 40px;
   text-align: center;
-  margin: 20px;
+  margin-left: 4rem;
+  margin-top: 2rem;
 }
 
 .healthy-button {
@@ -111,8 +117,8 @@ h1 {
 }
 
 .foodshed-p {
-  margin-left: 13rem;
-  margin-right: 13rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .para-1 {
@@ -136,4 +142,14 @@ h1 {
   width: 50%;
   display: flex;
   justify-content: center;
+}
+
+.float-1 {
+  width: 500px;
+  float: right;
+}
+
+.displayText {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
 }
