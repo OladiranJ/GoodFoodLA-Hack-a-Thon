@@ -12,7 +12,7 @@ const AffordableContentContainer = ({ displayText }) => {
         </div>
       </div>
       <div className="flex-item">
-          <p>Regardless of income, all Angelenos deserve access to Good Food. Accessible food is not only available but also affordable. Government nutrition programs such as the Supplemental Nutrition Assistance Program (SNAP) and Women, Infants and Children Supplemental Nutrition Program (WIC) increase the accessibility of food by expanding the food budgets of low-income children, families, and seniors.</p>
+          <p className='displayText'>Regardless of income, all Angelenos deserve access to Good Food. Accessible food is not only available but also affordable. Government nutrition programs such as the Supplemental Nutrition Assistance Program (SNAP) and Women, Infants and Children Supplemental Nutrition Program (WIC) increase the accessibility of food by expanding the food budgets of low-income children, families, and seniors.</p>
         </div>
       <div className='flex-item'>
           <button className='parent-button affordable-button' onClick={() => {

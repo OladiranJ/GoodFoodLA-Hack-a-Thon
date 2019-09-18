@@ -12,7 +12,7 @@ const AffordableContentContainer = ({ displayText }) => {
         </div>
       </div>
       <div className="flex-item">
-          <p>Fair food is produced, manufactured, distributed, sold and recycled through fair labor practices and humane treatment of animals. At every point in the food supply chain, workers should receive fair compensation regardless of their ethnicity, age, gender, ability, and documentation status and be free from exploitation.</p>
+          <p className='displayText'>Fair food is produced, manufactured, distributed, sold and recycled through fair labor practices and humane treatment of animals. At every point in the food supply chain, workers should receive fair compensation regardless of their ethnicity, age, gender, ability, and documentation status and be free from exploitation.</p>
         </div>
       <div className='flex-item'>
           <button className='parent-button fair-button' onClick={() => {

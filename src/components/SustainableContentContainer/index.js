@@ -12,7 +12,7 @@ const SustainableContentContainer = ({ displayText }) => {
         </div>
       </div>
       <div className="flex-item">
-          <p>Sustainable food systems ensure that food is grown, processed, distributed and recycled in ways that are environmentally responsible, equitable and economically viable for current and future generations. Environmental stewardship and regenerative agriculture is practiced through food growing and business practices that avoid harm to our air, soil, seeds, and water, and renew the resources needed to feed our population.</p>
+          <p className='displayText'>Sustainable food systems ensure that food is grown, processed, distributed and recycled in ways that are environmentally responsible, equitable and economically viable for current and future generations. Environmental stewardship and regenerative agriculture is practiced through food growing and business practices that avoid harm to our air, soil, seeds, and water, and renew the resources needed to feed our population.</p>
         </div>
       <div className='flex-item'>
           <button className='parent-button sustainable-button' onClick={() => {
