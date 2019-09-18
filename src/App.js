@@ -20,9 +20,9 @@ class App extends Component {
         <NavBar />
         <hr />
           <Healthy />
+          <Sustainable />
           <Affordable />
           <Fair />
-          <Sustainable />
         <Footer />
       </div>
     );
