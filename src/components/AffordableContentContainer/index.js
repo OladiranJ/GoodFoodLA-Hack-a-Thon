@@ -4,7 +4,7 @@ import AffordableChildContentContainer from '../AffordableChildContentContainer'
 const AffordableContentContainer = ({displayText, id}) => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className='parent-container' id={id}>
+    <div className='parent-container affordable-container' id={id}>
       <div className='flex-container'>
         <div className='flex-item'>
           <button className='parent-button' onClick={() => {

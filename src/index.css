@@ -23,8 +23,17 @@ code {
 
 .parent-container {
   padding: 10px;
-  border: 3px solid;
   margin-top: 10px;
+  min-height: 435px;
+  color: white;
+}
+
+.healthy-container {
+  background-color: #F59135;
+}
+
+.sustainable-container {
+  background-color: #52BAAF;
 }
 
 .child-container {

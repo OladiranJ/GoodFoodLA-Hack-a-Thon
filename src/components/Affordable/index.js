@@ -3,7 +3,7 @@ import AffordableContentContainer from '../AffordableContentContainer';
 
 const Affordable = () => {
   return(
-    <div>AFFORDABLE COMPONENT
+    <div>
     <AffordableContentContainer id={'Affordable'} displayText={'affordable'} />
     </div>
   )
