@@ -1,18 +1,18 @@
 export const text = [
   {
-    displayText: "affordable",
-    id: "Affordable"
-},
-  {
-    displayText: "fair",
-    id: "Fair"
+    displayText: "healthy",
+    id: "Healthy"
 },
   {
     displayText: "sustainable",
     id: "Sustainable"
 },
   {
-    displayText: "healthy",
-    id: "Healthy"
+    displayText: "affordable",
+    id: "Affordable"
+},
+  {
+    displayText: "fair",
+    id: "Fair"
 }
 ];
