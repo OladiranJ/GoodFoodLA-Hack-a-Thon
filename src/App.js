@@ -11,6 +11,7 @@ import Healthy from './components/Healthy';
 import Affordable from './components/Affordable';
 import Fair from './components/Fair';
 import Sustainable from './components/Sustainable'
+import RegionMap from './components/RegionMap'
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           <Affordable />
           <Fair />
           <Sustainable />
+          <RegionMap />
         <Footer />
       </div>
     );
