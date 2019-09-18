@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import SustainableChildContentContainer from '../SustainableChildContentContainer';
 
-const SustainableContentContainer = ({displayText, id}) => {
+const SustainableContentContainer = ({ displayText }) => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className='parent-container sustainable-container' id={id}>
+    <div className='parent-container sustainable-container'>
       <div className='flex-container'>
         
         <div className='flex-item'>

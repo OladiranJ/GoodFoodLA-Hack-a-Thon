@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import FairChildContentContainer from '../FairChildContentContainer';
 
-const AffordableContentContainer = ({displayText, id}) => {
+const AffordableContentContainer = ({ displayText }) => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className='parent-container fair-container' id={id}>
+    <div className='parent-container fair-container'>
       <div className='flex-container'>
         
         <div className='flex-item'>

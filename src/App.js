@@ -18,11 +18,10 @@ class App extends Component {
       <div className="App">
         <Header />
         <NavBar />
-        <hr />
-          <Healthy />
-          <Sustainable />
-          <Affordable />
-          <Fair />
+        <Healthy />
+        <Sustainable />
+        <Affordable />
+        <Fair />
         <Footer />
       </div>
     );

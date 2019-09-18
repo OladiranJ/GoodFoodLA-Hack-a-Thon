@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import HealthyChildContentContainer from '../HealthyChildContentContainer';
 
-const HealthyContentContainer = ({displayText, id}) => {
+const HealthyContentContainer = ({ displayText }) => {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className='parent-container healthy-container' id={id}>
+    <div className='parent-container healthy-container'>
       <div className='flex-container'>
         <div className='flex-item'>
           <h1 class="content-header">{displayText}</h1>
@@ -19,8 +19,6 @@ const HealthyContentContainer = ({displayText, id}) => {
             {isOpen ? '-' : '+'}
           </button>
         </div>
-        
-        
       </div>
       {isOpen && <HealthyChildContentContainer text={displayText}/>}
     </div>

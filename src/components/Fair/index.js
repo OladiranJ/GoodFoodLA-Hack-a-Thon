@@ -3,8 +3,8 @@ import FairContentContainer from '../FairContentContainer';
 
 const Fair = () => {
   return(
-    <div>
-    <FairContentContainer id={'Fair'} displayText={'fair'} />
+    <div id='Fair'>
+    <FairContentContainer displayText={'fair'} />
     </div>
   )
 }
