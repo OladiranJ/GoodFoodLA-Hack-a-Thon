@@ -14,6 +14,8 @@ export const Container = styled.div`
     width: 50%;
     height: 300px;
     overflow: scroll;
+    margin 0 auto;
+    margin-top: 40px;
 `
 
 export const TableHeader = styled.div`

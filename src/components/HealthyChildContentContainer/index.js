@@ -49,10 +49,10 @@ const HealthyChildContentContainer = ({ text }) => (
     <div>
       <DataGrid displayText={text}/>
     </div>
-    <div className='tookit'>
-      <button className='container-buttons'>Download Report</button>
-      <button className='container-buttons'>Download Data</button>
-      <button className='container-buttons'>Download Fast Facts</button>
+    <div className='toolkit'>
+      <button className='container-buttons healthy-button'>Download Report</button>
+      <button className='container-buttons healthy-button'>Download Data</button>
+      <button className='container-buttons healthy-button'>Download Fast Facts</button>
     </div>
   </div>
 )

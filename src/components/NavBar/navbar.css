@@ -19,16 +19,21 @@
 
 .navbar-items a {
 
-    color: rgba(153,153,153, 1);
+    color: #fff;
     text-decoration:  none;
     padding:    0 0.6rem;
     font-size: 30px;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: uppercase;
 
 }
 
 .navbar-items a:hover {
 
-    color:  #0B0C10
+    color:  #F59135
 
 }
 

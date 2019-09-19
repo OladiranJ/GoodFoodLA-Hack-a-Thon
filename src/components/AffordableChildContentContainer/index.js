@@ -15,7 +15,7 @@ const AffordableChildContentContainer = ({ text }) => (
       <p>
         Context brings data to life. In the Dashboard, this context is provided through expert commentary contributed by food system leaders throughout the Los Angeles region. Each Dashboard section contains analyses from at least two experts on food system topic areas, leveraging both data and experiential knowledge to shed light on relevant trends and recommendations for future priorities.
       </p>
-    <div>
+    <div className="float-2">
     <Chart
       width={'500px'}
       height={'300px'}
@@ -49,10 +49,10 @@ const AffordableChildContentContainer = ({ text }) => (
     <div>
       <DataGrid displayText={text}/>
     </div>
-    <div className='tookit'>
-      <button className='container-buttons'>Download Report</button>
-      <button className='container-buttons'>Download Data</button>
-      <button className='container-buttons'>Download Fast Facts</button>
+    <div className='toolkit'>
+      <button className='container-buttons affordable-button'>Download Report</button>
+      <button className='container-buttons affordable-button'>Download Data</button>
+      <button className='container-buttons affordable-button'>Download Fast Facts</button>
     </div>
   </div>
   
